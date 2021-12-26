@@ -1,0 +1,71 @@
+.body, .html { 
+    width: 100%;
+    min-height: 100% ;
+}
+.upsiteMainOuter { 
+    background: #95cef0; 
+    width: 33%;
+    height: 100px;
+    display: inline-block;
+    font-size: 4vh; 
+    text-align: center;
+    line-height: 250%;
+    margin-right: 0 
+ }
+  
+ 
+  .upsiteTasks
+ { 
+    background: #95cef0;
+    width: 33%;
+    height: 100px;
+	display: inline-block; 
+    font-size: 4vh; 
+    text-align: center;
+    line-height: 250%;
+    margin-right: 0 
+ } 
+ 
+ .upsiteStat
+ { 
+    background: #95cef0; 
+    width: 33%; 
+    height: 100px;
+	display: inline-block; 
+    font-size: 4vh; 
+    text-align: center;
+    line-height: 250%;
+    margin-right: 0 
+ }
+.boxFooter {
+    background: #95cef0; 
+position: absolute ;
+ left: 0;
+  bottom: 0;
+  top: 85%;
+  width: 100%;
+  
+}
+.footerMenu {
+    font-size: 12px;
+    text-align: center;
+    
+}
+.newsToday {
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    right:5%;
+    color: #9e9d9d;
+}
+.phoneNumber {
+    font-size: 12px;
+    position: absolute;
+    top: 25px;
+    left: 20%;
+}
+.logoNews {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+}

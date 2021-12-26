@@ -1,0 +1,7 @@
+[user]
+	email = gera.molockanov@yandex.ru
+	name = FayMG
+[core]
+	longpaths = true
+[http]
+	sslVerify = false
