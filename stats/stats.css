@@ -1,71 +1,63 @@
-.body, .html { 
-    width: 100%;
-    min-height: 100% ;
+table {
+    font-family:'Gilroy-Regular' ;
+    border-collapse: collapse;
 }
-.upsiteMainOuter { 
-    background: #95cef0; 
-    width: 33%;
-    height: 100px;
+
+thead {
+    box-shadow: 0px 4px 15px 0px #55555517;
+}
+
+th {
+    font-size: 24px;
+    width: 1397px;
+    height: 63px;
+    left: 261px;
+    top: 173px;
+    text-align: left;
+    display: flex-inline;
+    justify-content: center;
+}
+
+tr {
+    font-size: 18px;
+    line-height: 43px;
+}
+
+.new_roll {
+    background-color: white; 
+    color: black; 
+    border: 1px solid #2D9CDB;
+    width: 191px;
+    height: 51px;
+    font-size: 24px;
+    font-family: 'Gilroy-Regular';
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 30px;
+}
+
+.new_roll:hover {
+    background-color: #2D9CDB;
+    color: white;
+}
+
+.tbody {
+    font-size: 18px;
+    margin-top: 130px;
+    border-top: 15px solid white;
+}
+
+img {
+    border-radius: 100px;
+}
+
+.name {
+    width: 30%;
+
+}
+div {
     display: inline-block;
-    font-size: 4vh; 
-    text-align: center;
-    line-height: 250%;
-    margin-right: 0 
- }
-  
- 
-  .upsiteTasks
- { 
-    background: #95cef0;
-    width: 33%;
-    height: 100px;
-	display: inline-block; 
-    font-size: 4vh; 
-    text-align: center;
-    line-height: 250%;
-    margin-right: 0 
- } 
- 
- .upsiteStat
- { 
-    background: #95cef0; 
-    width: 33%; 
-    height: 100px;
-	display: inline-block; 
-    font-size: 4vh; 
-    text-align: center;
-    line-height: 250%;
-    margin-right: 0 
- }
-.boxFooter {
-    background: #95cef0; 
-position: absolute ;
- left: 0;
-  bottom: 0;
-  top: 85%;
-  width: 100%;
-  
-}
-.footerMenu {
-    font-size: 12px;
-    text-align: center;
-    
-}
-.newsToday {
-    font-size: 12px;
-    position: absolute;
-    top: 25px;
-    right:5%;
-    color: #9e9d9d;
-}
-.phoneNumber {
-    font-size: 12px;
-    position: absolute;
-    top: 25px;
-    left: 20%;
-}
-.logoNews {
-    position: absolute;
-    top: 15px;
-    left: 5%;
+    margin-right: 15px;
+    vertical-align: -15px;
 }

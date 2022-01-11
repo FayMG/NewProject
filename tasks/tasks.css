@@ -1,0 +1,61 @@
+
+.content {
+    font-family:'Gilroy-Regular';
+}
+
+.new_task_button {
+    
+    height:55px;
+    margin-top: 50px;
+    display: block;
+}
+input.text {
+    font-family:'Gilroy-Regular';
+    width: 737px;
+    height: 40px;
+    border: 1px solid #BDBDBD;
+    font-size: 18px;
+}
+.ok {
+    width: 44px;
+    height: 44px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Gilroy-Regular';
+    background: #2D9CDB;
+    border: 1px solid #2D9CDB;
+    color: white;
+    display: inline-block;
+}
+
+.ok:hover {
+    background: #f9f9fa;
+    color: #0c0c0c;
+    border: 1px solid #2D9CDB;
+}
+.tasks {
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+.through {
+    text-decoration: line-through;
+}
+
+label {
+    font-size: 18px;
+}
+
+.button_pencil {
+    weight: 20px;
+    height: 20px;
+    border: 0px ;
+    background-color: white;
+}
+
+.button_trash {
+    weight: 20px;
+    height: 20px;
+    border: 0px ;
+    background-color: white;
+}

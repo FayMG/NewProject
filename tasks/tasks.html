@@ -1,41 +1,34 @@
-<!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8">
-  <title>Задачи</title>
-  <link rel="stylesheet" href="tasks.css">
-  <script defer src="tasks.js"></script>
-  <style>
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      color: #212529;
-      background-color: #fff;
-      -webkit-text-size-adjust: 100%;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-  </style>
-</head>
-<body>
-    <div class="todo">
-        <div class="todo__input">
-          <input class="todo__text" type="text">
-          <span class="todo__add"></span>
-        </div>
-        <ul class="todo__items" data-todo-option="active"></ul>
-      </div>
-      <p><input type="button" value=" ОК "></p>
-      <li class="todo__item" data-todo-state="active">
-        <span class="todo__task">Текст задачи</span>
-        <span class="todo__action todo__action_restore" data-todo-action="active"></span>
-        <span class="todo__action todo__action_complete" data-todo-action="completed"></span>
-        <span class="todo__action todo__action_delete" data-todo-action="deleted"></span>
-      </li>
-</body>
-</html>
+<div class="content">
+ <div class="new_task_button">
+  <input type="text" class="text" placeholder="Напишите название задачи...">
+  <button class="ok">Ок</button>
+ </div>
+
+ <div class="tasks">
+  <div class="task_item through">
+    <input type="checkbox"  id="first_task" value="a1" />
+    <label for="first_task" > пресс качат</label>
+    <button class="button_pencil"><img src="/tasks/pencil.JPG" width="20" height="20" /></button>
+    <button class="button_trash"><img src="/tasks/trash.JPG" width="20" height="20" /></button>
+  </div>
+  <div class="task_item">
+    <input type="checkbox" id="second_task" value="a2" />
+    <label for="second_task"> 2. т) бегит</label>
+    <button class="button_pencil"><img src="/tasks/pencil.JPG" width="20" height="20" /></button>
+    <button class="button_trash"><img src="/tasks/trash.JPG" width="20" height="20" /></button>
+  </div>
+  <div class="task_item">
+    <input type="checkbox" id="third_task" value="a3" />
+    <label for="third_task"> 3. турник</label>
+    <button class="button_pencil"><img src="/tasks/pencil.JPG" width="20" height="20" /></button>
+    <button class="button_trash"><img src="/tasks/trash.JPG" width="20" height="20" /></button>
+  </div> 
+  <div class="task_item">
+    <input type="checkbox"  id="fourth_task" value="a4" />
+    <label for="fourth_task">4. анжумания</label>
+    <button class="button_pencil"><img src="/tasks/pencil.JPG" width="20" height="20" /></button>
+    <button class="button_trash"><img src="/tasks/trash.JPG" width="20" height="20" /></button>
+    </div>
+ </div>
+ 
+</div>

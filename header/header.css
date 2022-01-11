@@ -1,0 +1,40 @@
+.header {
+    background: #CFF3FF;
+    margin: -5px 250px;
+}
+
+.header_ul {
+    list-style-type: none;
+    margin:  0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.header_li {
+    float: left;
+}
+
+.header_li a {
+    display: block;
+    color: #4F4F4F;
+    text-align: center;
+    padding: 30px 16px 0px 16px;
+    width: 430px;
+    height: 90px;
+    text-decoration: none;
+	font-family: 'Gilroy-Black' ,sans-serif;  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.active {
+    background-color: #2D9CDB;
+    color: white !important;
+}
+
+.header_li a:hover {
+    background: #2D9CDB;
+    color: white !important;
+    opacity: 0.5;
+}
